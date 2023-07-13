@@ -7,10 +7,11 @@ export default class SveneContent extends Component {
   render() {
     return (
       <div className="bg-slate-950 text-white">
-        <Introduction />
-        <hr className="ml-6 mr-6 mb-4" />
-        <ContentWho />
-        <ContentWhat />
+        <div className="flex flex-col">
+          <Introduction />
+          <ContentWho />
+          <ContentWhat />
+        </div>
       </div>
     );
   }
