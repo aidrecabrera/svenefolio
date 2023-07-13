@@ -6,11 +6,11 @@ import ContentWhat from "./ContentWhat.jsx";
 export default class SveneContent extends Component {
   render() {
     return (
-      <div className="bg-slate-950 text-white">
+      <div className="bg-slate-950 snap-y snap-mandatory">
         <div className="flex flex-col">
-          <Introduction />
-          <ContentWho />
-          <ContentWhat />
+          <Introduction className="scroll-m-6 snap-center snap-always" />
+          <ContentWho className="scroll-m-6 snap-center snap-always" />
+          <ContentWhat className="scroll-m-6 snap-center snap-always" />
         </div>
       </div>
     );
