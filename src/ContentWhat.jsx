@@ -4,7 +4,7 @@ export default class ContentWhat extends Component {
   render() {
     return (
       <div>
-        <div className="border p-12">
+        <div className="border p-12 h-screen rounded-3xl">
           <div>
             <h1 className="font-bold font-league text-12xl leading-none">
               02.
@@ -13,7 +13,7 @@ export default class ContentWhat extends Component {
               WHAT HAVE I TOUCHED?
             </h1>
           </div>
-          <div className="text-right">
+          <div className="text-left">
             <div className="pb-5">
               <h1 className="font-inter font-black tracking-wider text-3xl">
                 DEVELOPMENT
