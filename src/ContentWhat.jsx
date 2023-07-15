@@ -4,7 +4,7 @@ export default class ContentWhat extends Component {
   render() {
     return (
       <div>
-        <div className="border p-12 h-screen rounded-3xl">
+        <div className="p-12 h-screen">
           <div>
             <h1 className="font-bold font-league text-12xl leading-none">
               02.
