@@ -11,12 +11,6 @@
   text-rendering: optimizeLegibility;
 }
 
-@layer components {
-  .sveneborder {
-    @apply border rounded-lg;
-  }
-}
-
 html {
   background-color: black;
   color: #b7ab98;
