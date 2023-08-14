@@ -7,7 +7,8 @@ import ContentWhen from "./ContentWhen.jsx";
 export default class SveneContent extends Component {
   render() {
     return (
-      <div className="bg-slate-950 snap-y snap-mandatory">
+      <div className="snap-y snap-mandatory">
+      <h1 className="p-3 mx-auto inset-x-0 text-center font-black text-xl fixed bg-gradient-to-b from-black to-transparent">SVENE</h1>
         <div className="flex flex-col">
           <Introduction className="scroll-m-6 snap-center snap-always" />
           <ContentWho className="scroll-m-6 snap-center snap-always" />

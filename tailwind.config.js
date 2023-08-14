@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        brico: ["Bricolage Grotesque", "sans-serif"],
         inter: ["Inter", "sans-serif"],
         league: ["League Gothic", "Helvetica"],
       },

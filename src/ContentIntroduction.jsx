@@ -3,13 +3,10 @@ import { Component } from "react";
 export default class Introduction extends Component {
   render() {
     return (
-      <div className="bg-slate-900">
+      <div className="bg-black">
         <div className="flex flex-col justify-center h-screen w-screen">
-          <h1 className="font-league text-8xl text-center leading-none">
-            SVENEFOLIO
-          </h1>
-          <h3 className="font-inter font-light text-center text-xs">
-            A Humble Aspirant, Writer, Programmer, and a CS Student.
+          <h3 className="font-brico font-normal text-center text-2xl text-gray-500">
+            I am <span className=" text-white">Aidre Cabrera</span>, a humble exploring aspirant, who loves to write and program.
           </h3>
         </div>
       </div>
