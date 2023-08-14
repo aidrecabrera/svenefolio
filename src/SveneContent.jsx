@@ -15,9 +15,9 @@ export default class SveneContent extends Component {
           <Introduction className="scroll-m-6 snap-center snap-always" />
           <ContentWrite className="scroll-m-6 snap-center snap-always" />
           <ContentProject className="scroll-m-6 snap-center snap-always" />
-          {/* <ContentWho className="scroll-m-6 snap-center snap-always" />
+          <ContentWho className="scroll-m-6 snap-center snap-always" />
           <ContentWhat className="scroll-m-6 snap-center snap-always" />
-          <ContentWhen /> */}
+          <ContentWhen />
         </div>
       </div>
     ); 
