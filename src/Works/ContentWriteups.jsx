@@ -6,9 +6,9 @@ export class ContenWriteups extends Component {
     return (
       <div>
         <div className="h-screen ">
-          <div className="p-12 flex flex-col h-screen justify-between">
+          <div className="p-5 flex flex-col h-screen justify-between">
             <div>
-              <h1 className="font-semibold font-brico tracking-widest text-2xl pb-5 text-center">
+              <h1 className="font-semibold font-brico tracking-widest text-2xl text-center">
                 OUTPUTS
               </h1>
               <div className='showcase'>

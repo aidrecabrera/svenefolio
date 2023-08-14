@@ -16,6 +16,42 @@ class ContentWriteupsBlocks extends Component {
           title: "Project CorPulse",
           url: "https://example.com/my-other-work",
         },
+        {
+          image:
+            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
+          title: "Project Presence",
+          url: "https://example.com/my-work",
+        },
+        {
+          image:
+            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
+          title: "Project CorPulse",
+          url: "https://example.com/my-other-work",
+        },
+        {
+          image:
+            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
+          title: "Project Presence",
+          url: "https://example.com/my-work",
+        },
+        {
+          image:
+            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
+          title: "Project CorPulse",
+          url: "https://example.com/my-other-work",
+        },
+        {
+          image:
+            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
+          title: "Project Presence",
+          url: "https://example.com/my-work",
+        },
+        {
+          image:
+            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
+          title: "Project CorPulse",
+          url: "https://example.com/my-other-work",
+        }
       ],
     },
   };
