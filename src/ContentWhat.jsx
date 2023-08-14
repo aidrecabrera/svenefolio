@@ -15,7 +15,7 @@ export default class ContentWhat extends Component {
           </div>
           <div className="text-left">
             <div className="pb-5">
-              <h1 className="font-inter font-black tracking-wider text-3xl">
+              <h1 className="font-brico font-black tracking-wider text-3xl">
                 DEVELOPMENT
               </h1>
               <div>
@@ -27,7 +27,7 @@ export default class ContentWhat extends Component {
               </div>
             </div>
             <div className="pb-5">
-              <h1 className="font-inter font-black tracking-wider text-3xl">
+              <h1 className="font-brico font-black tracking-wider text-3xl">
                 WRITING
               </h1>
               <div>
@@ -38,7 +38,7 @@ export default class ContentWhat extends Component {
               </div>
             </div>
             <div className="pb-5">
-              <h1 className="font-inter font-black tracking-wider text-3xl">
+              <h1 className="font-brico font-black tracking-wider text-3xl">
                 LANGUAGE
               </h1>
               <p>
