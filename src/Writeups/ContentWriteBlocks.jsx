@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class ContentWriteupsBlocks extends Component {
+class ContentWriteupBlocks extends Component {
   state = {
     showcaseInformation: {
       work: [
@@ -33,24 +33,6 @@ class ContentWriteupsBlocks extends Component {
             "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
           title: "Project Presence",
           url: "https://example.com/my-work",
-        },
-        {
-          image:
-            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
-          title: "Project CorPulse",
-          url: "https://example.com/my-other-work",
-        },
-        {
-          image:
-            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
-          title: "Project Presence",
-          url: "https://example.com/my-work",
-        },
-        {
-          image:
-            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg",
-          title: "Project CorPulse",
-          url: "https://example.com/my-other-work",
         }
       ],
     },
@@ -64,7 +46,7 @@ class ContentWriteupsBlocks extends Component {
               <img
                 src={work.image}
                 alt={work.title}
-                className="object-cover h-48 w-96 object-center rounded-xl"
+                className="object-cover h-48 w-full object-center rounded-xl"
               />
               <div className="flex flex-row justify-between">
               <h3 className="mt-5 text-center">{work.title}</h3>
@@ -77,4 +59,4 @@ class ContentWriteupsBlocks extends Component {
   }
 }
 
-export default ContentWriteupsBlocks;
+export default ContentWriteupBlocks;
