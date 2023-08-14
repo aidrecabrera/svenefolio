@@ -16,6 +16,6 @@ export default class SveneContent extends Component {
           <ContentWhen />
         </div>
       </div>
-    );
+    ); 
   }
 }
