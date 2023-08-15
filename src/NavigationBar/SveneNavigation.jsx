@@ -5,10 +5,10 @@ export default function Root() {
         <nav className="duration-500 ease-in-out font-brico">
           <div className="flex flex-col items-center justify-between md:flex-row">
             <h1 className="text-2xl text-center md:text-left font-semibold">
-              svenefolio.
+              svenefolio
             </h1>
-            <div className="w-full fixed bottom-0 bg-white md:bg-transparent text-black md:bg-none md:text-white md:static md:w-auto">
-              <ul className="flex flex-row pt-3 pb-3 gap-5 justify-center">
+            <div className="w-full fixed bottom-0 text-black bg-white md:static md:bg-black md:text-white md:w-auto">
+              <ul className="flex flex-row p-2 gap-5 justify-center">
                 <li>
                   <a href={`/contacts/1`}>index</a>
                 </li>
