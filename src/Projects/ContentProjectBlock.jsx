@@ -34,7 +34,7 @@ class ContentProjectBlock extends Component {
               <img
                 src={work.image}
                 alt={work.title}
-                className="object-cover h-48 w-96 object-center rounded-xl"
+                className="object-cover h-48 w-screen object-center rounded-xl"
               />
               <div className="flex flex-row justify-between">
               <h3 className="mt-5 text-center">{work.title}</h3>

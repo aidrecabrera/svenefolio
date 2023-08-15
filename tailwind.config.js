@@ -26,7 +26,7 @@ export default {
         "10xl": "8rem",
         "11xl": "9rem",
         "12xl": "10rem",
-        smallxl: "21rem",
+        "13xl": "15rem",
         "answer-xl": "15rem",
       },
       letterSpacing: {
