@@ -1,12 +1,21 @@
 import SveneContent from "./SveneContent";
-import SveneNavigation from "./SveneNavigation.jsx";
 import "./index.css";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Hello world!</div>,
+  },
+]);
 
 function App() {
   return (
     <div>
+      <RouterProvider router={router} />
       <SveneContent />
-      <SveneNavigation />
     </div>
   );
 }
