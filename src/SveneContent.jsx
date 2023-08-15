@@ -12,11 +12,6 @@ export default class SveneContent extends Component {
       <div className="snap-y snap-mandatory">
         <div className="flex flex-col">
           <Introduction className="scroll-m-6 snap-center snap-always" />
-          <ContentWrite className="scroll-m-6 snap-center snap-always" />
-          <ContentProject className="scroll-m-6 snap-center snap-always" />
-          <ContentWho className="scroll-m-6 snap-center snap-always" />
-          <ContentWhat className="scroll-m-6 snap-center snap-always" />
-          <ContentWhen />
         </div>
       </div>
     ); 
