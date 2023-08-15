@@ -1,4 +1,5 @@
 import SveneContent from "./SveneContent";
+import SveneNavigation from "./NavigationBar/SveneNavigation";
 import "./index.css";
 import {
   createBrowserRouter,
@@ -7,7 +8,7 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <SveneNavigation/>,
   },
 ]);
 
