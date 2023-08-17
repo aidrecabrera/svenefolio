@@ -18,7 +18,6 @@ function App() {
     <div>
       <RouterProvider router={router} />
       <SveneContent/>
-      
     </div>
   );
 }
