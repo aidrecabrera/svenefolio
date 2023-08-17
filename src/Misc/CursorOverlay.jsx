@@ -17,7 +17,7 @@ const Cursor = () => {
   
 
   return (
-    <div ref={ref} className="fixed w-1/4 h-1/2 border-radius-50 bg-white rounded-full">
+    <div ref={ref} className=" duration-75 delay ease-in-out fixed hole w-36 h-36 border-radius-50 rounded-full backdrop-invert">
     </div>
   );
 };
