@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 
-const BackgroundEffect = () => {
+const Cursor = () => {
   const ref = useRef();
 
   useEffect(() => {
@@ -17,9 +17,9 @@ const BackgroundEffect = () => {
   
 
   return (
-    <div ref={ref} className="hole fixed w-full h-full rounded-full bg-gray-50">
+    <div ref={ref} className="fixed w-1/4 h-1/2 border-radius-50 bg-white rounded-full">
     </div>
   );
 };
 
-export default BackgroundEffect;
+export default Cursor;
