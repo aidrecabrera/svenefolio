@@ -1,7 +1,7 @@
 import SveneContent from "./SveneContent";
 import SveneNavigation from "./NavigationBar/SveneNavigation";
 import "./index.css";
-import BackgroundEffect from "./Misc/BackgroundEffect"
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -17,8 +17,8 @@ function App() {
   return (
     <div>
       <RouterProvider router={router} />
-      <SveneContent />
-      <BackgroundEffect />
+      <SveneContent/>
+      
     </div>
   );
 }
