@@ -7,7 +7,7 @@ export default function Root() {
             <h1 className="text-2xl lg:text-3xl text-center md:text-left font-semibold">
               svenefolio
             </h1>
-            <div className="w-full fixed bottom-0 text-black bg-white md:static md:bg-black md:text-white md:w-auto">
+            <div className="w-full fixed bottom-0 text-black bg-white md:static md:bg-transparent md:text-white md:w-auto">
               <ul className="text-sm md:text-base lg:text-lg flex flex-row p-2 gap-8 justify-center">
                 <li>
                   <a href={`/contacts/1`}>index</a>
