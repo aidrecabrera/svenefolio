@@ -17,7 +17,7 @@ const BackgroundEffect = () => {
   
 
   return (
-    <div ref={ref} className="hole fixed w-full h-full rounded-full bg-gray-50">
+    <div ref={ref} className="hole fixed w-[calc(100%*3)] h-[calc(100%*3)] rounded-full bg-gray-50 ">
     </div>
   );
 };
