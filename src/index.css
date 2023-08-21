@@ -17,6 +17,7 @@
     @apply border rounded-lg;
   }
   html {
+    @apply opacity-100;
     @apply bg-gradient-to-tl from-green-500 via-blue-500  to-red-500;
   }
 }
@@ -45,6 +46,6 @@ body {
 .hole {
   position: fixed;
   z-index: -1;
-  background: radial-gradient(circle, rgb(0, 0, 0, 0.5) 0%, rgba(0,0,0,1) 50%);
+  background: radial-gradient(circle, rgb(0, 0, 0, 0.30) 0%, rgba(0,0,0,0.96) 50%);
   @apply backdrop-blur-2xl;
 }
