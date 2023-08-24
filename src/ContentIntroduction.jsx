@@ -4,13 +4,15 @@ export default class Introduction extends Component {
   render() {
     return (
       <div className=" -mt-20 md:-mt-20">
-        <div className=" duration-75 ease-in-out flex flex-col justify-center items-center w-screen h-screen xl:leading-none">
-        <img src="src/tux.png" className="p-5 w-52"/>
-          <h3 className="duration-75 ease-in-out font-brico font-normal text-center text-2xl w-4/5 lg:text-5xl md:w-2/3 md:text-5xl lg:w-3/4 xl:text-7xl xl:w-5/6 2xl:text-8xl text-white">
-            I am Aidre "Svene" Cabrera, a humble ever-exploring aspirant, who loves to write and program.
-          </h3>
-          <div>
-          </div>
+        <div className="flex items-center w-screen h-screen xl:leading-none">
+          <h1 className=" pl-32 inherit  text-left text-10xl font-thin font-darker">
+            <span className="duration-500 ease-in-out hover:font-bold tracking-wider">WELCOME,</span>
+            <br />
+            <span className=" duration-500 ease-in-out hover:font-bold tracking-wider">THIS</span>{" "}
+            <span className=" duration-500 ease-in-out hover:font-bold tracking-wider">IS</span>{" "}
+            <span className=" duration-500 ease-in-out hover:font-bold hover:text-red-600 hover:tracking-tight tracking-wider">SVENE.</span>
+          </h1>
+          <div className="star absolute right-5"></div>
         </div>
       </div>
     );

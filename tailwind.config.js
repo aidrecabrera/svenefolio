@@ -4,6 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        darker: ["Darker Grotesque", "sans-serif"],
+        space: ["Space Grotesk", "sans-serif"],
+        cabinet: ["Cabinet Grotesk", "sans-serif"],
         brico: ["Bricolage Grotesque", "sans-serif"],
         inter: ["Inter", "sans-serif"],
         league: ["League Gothic", "Helvetica"],

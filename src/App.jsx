@@ -1,6 +1,6 @@
 import SveneContent from "./SveneContent";
 import SveneNavigation from "./NavigationBar/SveneNavigation";
-import "./index.css";
+import "./css/index.css";
 
 import {
   createBrowserRouter,
