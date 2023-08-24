@@ -20,7 +20,7 @@ const BackgroundEffect = () => {
   return (
     // INSPIRATION!!! https://www.poppr.be/en
     <div ref={ref} className="hole w-[calc(100%*3)] h-[calc(100%*3)] rounded-full bg-gray-50">
-      <div className=''></div>
+      <div></div>
     </div>
   );
 };

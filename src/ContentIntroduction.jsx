@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Component } from "react";
 export default class Introduction extends Component {
   render() {
