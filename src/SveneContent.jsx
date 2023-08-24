@@ -15,10 +15,11 @@ export default class SveneContent extends Component {
       <div className="snap-y snap-mandatory">
         <div className="flex flex-col">
           {/* <CursorOverlay/> */}
-          <BackgroundEffect/>
-          <BackgroundTest/>
-          {/* <Introduction className="scroll-m-6 snap-center snap-always" />
-          <ContentWhat/>
+          {/* <BackgroundEffect/>
+          <BackgroundTest/> */}
+          {/* <Introduction className="scroll-m-6 snap-center snap-always" /> */}
+          <div className="star"></div>
+          {/* <ContentWhat/>
           <ContentWho/>
           <ContentWhen />
           <ContentWrite /> */}
