@@ -3,7 +3,6 @@ export class BackgroundTest extends Component {
   render() {
     return (
       <div className=' h-[1000px] '>
-        
       </div>
     )
   }
