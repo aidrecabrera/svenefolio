@@ -3,6 +3,7 @@ import Introduction from "./ContentIntroduction.jsx";
 import BriefIntroduction from "./Home/BriefIntroduction.jsx";
 import BriefDiscretion from "./Home/BriefDiscretion.jsx";
 import OverlayGrain from "./Misc/OverlayGrain.jsx";
+import { motion } from "framer-motion";
 export default class SveneContent extends Component {
   render() {
     return (

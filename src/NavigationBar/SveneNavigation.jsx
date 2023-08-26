@@ -10,16 +10,36 @@ export default function Root() {
             <div className="font-inter uppercase tracking-tight z-50 w-full fixed bottom-0 text-black bg-white md:static md:bg-transparent md:text-white md:w-auto">
               <ul className="font-normal md:font-thin md:text-base lg:text-lg flex flex-row p-2 gap-8 justify-center">
                 <li>
-                  <a href={`/contacts/1`} className="md:w-24 hover:font-semibold">index</a>
+                  <a
+                    href={`/contacts/1`}
+                    className="md:w-24 hover:font-semibold"
+                  >
+                    index
+                  </a>
                 </li>
                 <li>
-                  <a href={`/contacts/2`} className="md:w-24 hover:font-semibold">output</a>
+                  <a
+                    href={`/contacts/2`}
+                    className="md:w-24 hover:font-semibold"
+                  >
+                    output
+                  </a>
                 </li>
                 <li>
-                  <a href={`/contacts/2`} className="md:w-24 hover:font-semibold">write</a>
+                  <a
+                    href={`/contacts/2`}
+                    className="md:w-24 hover:font-semibold"
+                  >
+                    write
+                  </a>
                 </li>
                 <li>
-                  <a href={`/contacts/1`} className="md:w-24 hover:font-semibold">about</a>
+                  <a
+                    href={`/contacts/1`}
+                    className="md:w-24 hover:font-semibold"
+                  >
+                    about
+                  </a>
                 </li>
               </ul>
             </div>

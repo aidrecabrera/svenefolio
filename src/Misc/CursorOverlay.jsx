@@ -18,7 +18,7 @@ const Cursor = () => {
   return (
     <div
       ref={ref}
-      className="duration-300 ease-out fixed cursor w-7 h-7 border-radius-50 rounded-full backdrop-invert hover:w-60 hover:h-60"
+      className="duration-300 ease-out fixed cursor w-20 h-20 border-radius-50 rounded-full backdrop-invert hover:w-60 hover:h-60"
     ></div>
   );
 };
