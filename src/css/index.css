@@ -113,7 +113,7 @@
     @apply border rounded-lg;
   }
   .header {
-    @apply text-2xl font-medium
+    @apply text-2xl font-medium;
   }
 }
 
@@ -147,7 +147,6 @@ body {
   -ms-overflow-style: none;
 }
 
-
 ::-webkit-scrollbar {
   display: none;
 }
@@ -178,5 +177,3 @@ body {
   width: 100vh;
   height: 100vh;
 }
-
-
