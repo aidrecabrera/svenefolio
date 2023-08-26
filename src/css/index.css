@@ -105,12 +105,15 @@
 }
 
 @layer components {
-  .sveneborder {
-    @apply border rounded-lg;
-  }
   a {
     @apply hover:font-semibold;
     @apply duration-300 ease-in-out;
+  }
+  .sveneborder {
+    @apply border rounded-lg;
+  }
+  .header {
+    @apply text-2xl font-medium
   }
 }
 
@@ -175,3 +178,5 @@ body {
   width: 100vh;
   height: 100vh;
 }
+
+

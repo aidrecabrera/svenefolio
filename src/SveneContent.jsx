@@ -9,13 +9,14 @@ import BackgroundEffect from "./Misc/BackgroundEffect"
 import BackgroundGradient from "./Misc/BackgroundGradient.jsx"
 import CursorOverlay from "./Misc/CursorOverlay.jsx"
 import BackgroundTest from "./Misc/BackgroundTest.jsx";
+import BriefIntroduction from "./Home/BriefIntroduction.jsx";
 export default class SveneContent extends Component {
   render() {
     return (
       <div className="snap-y snap-mandatory">
         <div className="flex flex-col">
           <Introduction className="scroll-m-6 snap-center snap-always" />
-          <BackgroundTest/>
+          <BriefIntroduction/>
         </div>
       </div>
     ); 

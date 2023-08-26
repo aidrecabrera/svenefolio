@@ -14,7 +14,7 @@ export default class Introduction extends Component {
             <span className=" duration-500 ease-in-out hover:font-bold hover:text-red-600 ">SVENE.</span>
           </h1>
           <div className="star absolute right-5"></div>
-          <OverlayGrain/>
+          {/* <OverlayGrain/> */}
         </div>
       </div>
     );
