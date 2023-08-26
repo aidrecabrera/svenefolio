@@ -11,6 +11,7 @@ import CursorOverlay from "./Misc/CursorOverlay.jsx";
 import BackgroundTest from "./Misc/BackgroundTest.jsx";
 import BriefIntroduction from "./Home/BriefIntroduction.jsx";
 import BriefDiscretion from "./Home/BriefDiscretion.jsx";
+import OverlayGrain from "./Misc/OverlayGrain.jsx";
 export default class SveneContent extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ export default class SveneContent extends Component {
             <BriefDiscretion />
           </div>
         </div>
+        <OverlayGrain className="pointer-events-none" />
       </div>
     );
   }
