@@ -21,7 +21,7 @@ export class BriefDiscretion extends Component {
               </video>
             </div>
           </div>
-          <div className="font-darker col-span-2 p-10 pt-60 pb-60 text-left border-b border-l">
+          <div className="font-darker col-span-2 p-10 pt-32 text-left border-b border-l">
             <h1 className="text-9xl font-thin">CURRENT STATUS</h1>
             <p className="text-5xl pr-72 font-extralight uppercase">
               I find myself in a phase of exploration, uncertainty, exploration,
