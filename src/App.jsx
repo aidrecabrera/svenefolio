@@ -13,18 +13,19 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      transition={{ duration: 2.5 }}
-      animate={{
-        opacity: 1,
-        borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-      }}
-    >
-      <RouterProvider router={router} />
+    <div>
       <CursorOverlay className="z-50" />
-      <SveneContent />
-    </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        transition={{ duration: 2.5 }}
+        animate={{
+          opacity: 1,
+        }}
+      >
+        <RouterProvider router={router} />
+        <SveneContent />
+      </motion.div>
+    </div>
   );
 }
 

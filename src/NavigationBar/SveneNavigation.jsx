@@ -1,7 +1,17 @@
+import { motion } from "framer-motion";
 export default function Root() {
   return (
     <>
-      <div id="sidebar" className="pt-10 pl-20 pr-20">
+      <motion.div
+        initial={{ opacity: 0, y: -100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          ease: "easeIn",
+          duration: 0.5,
+        }}
+        id="sidebar"
+        className="pt-10 pl-20 pr-20"
+      >
         <nav className="duration-500 ease-in-out font-brico">
           <div className="flex flex-col items-center justify-between md:flex-row">
             <h1 className="text-2xl lg:text-3xl text-center md:text-left font-thin">
@@ -45,7 +55,7 @@ export default function Root() {
             </div>
           </div>
         </nav>
-      </div>
+      </motion.div>
       <div id="detail"></div>
     </>
   );

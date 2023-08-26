@@ -1,5 +1,17 @@
 import React, { Component } from "react";
+import { motion } from "framer-motion";
 
+const letterAnimation = {
+  initial: {
+    y: 400,
+  },
+  animate: {
+    y: 0,
+    transition: {
+      duration: 1,
+    },
+  },
+};
 export class BriefIntroduction extends Component {
   render() {
     return (

@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
         darker: ["Darker Grotesque", "sans-serif"],
         space: ["Space Grotesk", "sans-serif"],
         cabinet: ["Cabinet Grotesk", "sans-serif"],
