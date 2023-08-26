@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Introduction from "./ContentIntroduction.jsx";
+import Introduction from "./Home/ContentIntroduction.jsx";
 import BriefIntroduction from "./Home/BriefIntroduction.jsx";
 import BriefDiscretion from "./Home/BriefDiscretion.jsx";
 import OverlayGrain from "./Misc/OverlayGrain.jsx";

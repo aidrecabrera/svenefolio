@@ -6,15 +6,19 @@ const Cursor = () => {
 
   useEffect(() => {
     document.addEventListener("mousemove", handleMouseMove);
-    const links = document.querySelectorAll("a"); // Select all links
+    const links = document.querySelectorAll("a");
 
     links.forEach((link) => {
       link.addEventListener("mouseenter", () => {
-        cursorRef.current.style.backgroundColor = "red"; // Change cursor color on link hover
+        cursorRef.current.style.backgroundColor = "red";
+        cursorRef.current.style.width = "5rem";
+        cursorRef.current.style.height = "5rem";
       });
 
       link.addEventListener("mouseleave", () => {
-        cursorRef.current.style.backgroundColor = "initial"; // Reset cursor color when leaving link
+        cursorRef.current.style.backgroundColor = "initial";
+        cursorRef.current.style.width = "2.5rem";
+        cursorRef.current.style.height = "2.5rem";
       });
     });
 
@@ -43,7 +47,7 @@ const Cursor = () => {
         opacity: 1,
       }}
       ref={cursorRef}
-      className="duration-300 ease-out fixed cursor w-20 h-20 border-radius-50 rounded-full backdrop-invert pointer-events-none"
+      className="duration-500 ease-out fixed cursor w-5 h-5 border-radius-50 rounded-full backdrop-invert pointer-events-none"
     ></motion.div>
   );
 };
