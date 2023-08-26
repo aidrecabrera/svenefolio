@@ -7,7 +7,6 @@ const Cursor = () => {
   useEffect(() => {
     document.addEventListener("mousemove", handleMouseMove);
     const links = document.querySelectorAll("a");
-
     links.forEach((link) => {
       link.addEventListener("mouseenter", () => {
         cursorRef.current.style.backgroundColor = "red";
@@ -17,6 +16,21 @@ const Cursor = () => {
 
       link.addEventListener("mouseleave", () => {
         cursorRef.current.style.backgroundColor = "initial";
+        cursorRef.current.style.width = "2.5rem";
+        cursorRef.current.style.height = "2.5rem";
+      });
+    });
+
+    const myInformation = document.querySelectorAll(".identity");
+    myInformation.forEach((link) => {
+      link.addEventListener("mouseenter", () => {
+        cursorRef.current.style.backdropFilter = "invert(100%)";
+        cursorRef.current.style.width = "10rem";
+        cursorRef.current.style.height = "10rem";
+      });
+
+      link.addEventListener("mouseleave", () => {
+        cursorRef.current.style.backdropFilter = "invert(100%)";
         cursorRef.current.style.width = "2.5rem";
         cursorRef.current.style.height = "2.5rem";
       });
