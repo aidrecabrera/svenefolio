@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Component } from "react";
-import OverlayGrain from "../Misc/OverlayGrain";
-import { motion } from "framer-motion";
 export default class Introduction extends Component {
   render() {
     return (

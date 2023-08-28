@@ -23,7 +23,9 @@ function App() {
         }}
       >
         <RouterProvider router={router} />
-        <SveneContent />
+        <div className="noise">
+          <SveneContent />
+        </div>
       </motion.div>
     </div>
   );

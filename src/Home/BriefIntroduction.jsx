@@ -1,23 +1,11 @@
 import React, { Component } from "react";
-import { motion } from "framer-motion";
 
-const letterAnimation = {
-  initial: {
-    y: 400,
-  },
-  animate: {
-    y: 0,
-    transition: {
-      duration: 1,
-    },
-  },
-};
 export class BriefIntroduction extends Component {
   render() {
     return (
       <>
         <div className="grid grid-cols-3 font-darker">
-          <div className="identity border-t border-b p-10 hover:bg-white hover:text-black duration-300">
+          <div className="identity border-t border-b p-10 hover:bg-white hover:text-black duration-300 transition-opacity ease-in-out">
             <div className="flex flex-col justify-evenly content-evenly gap-20">
               <h1 className="header">STUDENT</h1>
               <div className="uppercase font-medium tracking-wider">

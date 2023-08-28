@@ -3,7 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        mmcm: "url('./src/assets/mmcm.jpg')",
+      },
       fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         darker: ["Darker Grotesque", "sans-serif"],
         space: ["Space Grotesk", "sans-serif"],
