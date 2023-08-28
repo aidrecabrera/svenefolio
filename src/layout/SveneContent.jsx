@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import Introduction from "./Home/ContentIntroduction.jsx";
-import BriefIntroduction from "./Home/BriefIntroduction.jsx";
-import BriefDiscretion from "./Home/BriefDiscretion.jsx";
+import { Component } from "react";
+import Introduction from "../home/ContentIntroduction.jsx";
+import BriefIntroduction from "../home/BriefIntroduction.jsx";
+import BriefDiscretion from "../home/BriefDiscretion.jsx";
 
 export default class SveneContent extends Component {
   render() {

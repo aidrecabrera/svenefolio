@@ -1,7 +1,7 @@
-import SveneContent from "./SveneContent";
-import SveneNavigation from "./NavigationBar/SveneNavigation";
+import SveneContent from "./layout/SveneContent";
+import SveneNavigation from "./layout/SveneNavigation";
 import "./css/index.css";
-import CursorOverlay from "./Misc/CursorOverlay";
+import CursorOverlay from "./misc/CursorOverlay";
 import { motion } from "framer-motion";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([

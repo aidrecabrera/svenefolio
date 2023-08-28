@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import myVideo from "../assets/fxvid.mp4";
+import { Component } from "react";
+import myVideo from "../assets/videos/fxvid.mp4";
 export class BriefDiscretion extends Component {
   render() {
     return (
