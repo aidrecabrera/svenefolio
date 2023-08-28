@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Component } from "react";
+import { motion } from "framer-motion";
+import Circle from "../misc/circle.jsx";
 export default class Introduction extends Component {
   render() {
     return (
@@ -7,22 +9,11 @@ export default class Introduction extends Component {
         <div className="flex items-center w-screen h-screen xl:leading-none">
           <div>
             <h1 className=" z-10 pl-32 inherit  text-left text-10xl font-thin font-darker">
-              <span className="duration-500 ease-in-out hover:font-bold ">
-                WELCOME,
-              </span>
-              <br />
-              <span className=" duration-500 ease-in-out hover:font-bold ">
-                THIS
-              </span>{" "}
-              <span className=" duration-500 ease-in-out hover:font-bold ">
-                IS
-              </span>{" "}
-              <span className=" duration-500 ease-in-out hover:font-bold hover:text-red-600 ">
-                SVENE.
-              </span>
+              WELCOME, SVENE.
             </h1>
           </div>
-          <div className="star absolute right-5"></div>
+          <Circle className="star" />
+          {/* <div className="star absolute right-5"></div> */}
           {/* <OverlayGrain/> */}
         </div>
       </div>

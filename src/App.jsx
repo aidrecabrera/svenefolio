@@ -16,7 +16,7 @@ function App() {
     <div>
       <CursorOverlay className="z-50" />
       <motion.div
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 0.1 }}
         transition={{ duration: 2.5 }}
         animate={{
           opacity: 1,
